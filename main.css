@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: rgb(39, 39, 39);
+    background-image: url(./images/bg_purple.png);
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*header*/
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 46px;
+    margin-top: 36px;
+    padding: 0 150px;
+}
+
+header h1 {
+    font-weight: bold;
+    color: rgb(141, 99, 255);
+}
+
+header img {
+    height: 40px;
+    margin-right: 45px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    padding: 0 160px;
+    font-weight: 400;
+}
+
+.container button {
+    background-color: rgb(141, 99, 255);
+    border-radius: 40px;
+    border: none;
+    max-width: 50px;
+    width:100%;
+}
+
+.container button:hover {
+    background-color: rgb(96, 42, 245);
+    cursor: pointer;
+}
+
+/*formulario*/
+form {
+    display: flex;
+    margin-bottom: 46px;
+    max-width: 700px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+form input {
+    border: none;
+    background-color: #363636;
+    height: 42px;
+    padding: 14px;
+    border-radius: 40px;
+    max-width: 150px;
+}
+
+/*tabela*/
+table {
+    max-width: 700px;
+    width: 100%;
+    
+}
+
+table th{
+    padding: 16px;
+}
+
+table td{
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.034);
+}
+
+.footer {
+    max-width: auto;
+    width: 100%;
+    margin-top: 450px;
+}
+
+#footer-bg-color {
+    background-color:rgb(141, 99, 255);
+    height: 50px;
+}
+
+footer p {
+    text-align: center;
+    padding: 12px;
+    color: #fff;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}

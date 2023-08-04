@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>te.lefone</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/phonebook_icon.png" alt="agenda telefônica" />
+            <h1>te.lefone</h1>
+        </header>
+    </div>
+    <div class="container">
+        <h2>Insira os dados que deseja cadastrar abaixo:</h2>
+        <div>
+            <form id="formulario">
+                <input id="input-nome" type="text" placeholder="Nome" required/>
+                <input id="input-sobrenome" type="text" placeholder="Sobrenome" required/>
+                <input controls="none" id="input-telefone" type="number" placeholder="Telefone" required/>
+                <button type="submit">+</button>
+            </form>
+        </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Sobrenome</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+            </table>
+    </div>
+    <script src="./main.js"></script>
+    <footer>
+        <div class="footer">
+            <div id="footer-bg-color">
+                <p><a href="https://github.com/hsanfilippo">&copy;Henrique Sanfilippo - Direitos? Aonde? - 2023</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
